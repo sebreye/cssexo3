@@ -8,3 +8,12 @@ h1{
 h2{
     text-decoration: underline;
 }
+section h2{
+    color: green;
+}
+article h2 :first-child{
+    color: blue;
+}
+article p::first-line{
+    color: red;
+}
