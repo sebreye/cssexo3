@@ -8,12 +8,16 @@ h1{
 h2{
     text-decoration: underline;
 }
-section h2{
+article section h2{
     color: green;
 }
-article h2 :first-child{
+article h2 {
     color: blue;
 }
-article p::first-line{
+article p:first-line{
     color: red;
+    font-family: italic;
+}
+body p::first-line{
+    color: violet;
 }
