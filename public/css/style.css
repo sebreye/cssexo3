@@ -14,10 +14,9 @@ article section h2{
 article h2 {
     color: blue;
 }
-article p:first-line{
+h2~p{
     color: red;
-    font-family: italic;
 }
-body p::first-line{
+h1~p{
     color: violet;
 }
